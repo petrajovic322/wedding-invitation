@@ -1,6 +1,7 @@
 import LocalizedStrings from 'react-localization';
 
 import './App.css';
+import { useEffect } from 'react';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       when: 'WHEN',
       where: 'WHERE'
     },
-    it: {
+    hr: {
       intro1: 'Drage obitelji i prijatelji,',
       intro2: 'S velikim veseljem vas pozivamo da budete dio našeg vjenčanja kada ćemo izreći svoje zavjete i proslaviti našu ljubav.',
       date: 'Datum: 11.10.2024.',
