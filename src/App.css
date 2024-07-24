@@ -99,3 +99,8 @@
 .rsvp-button:hover{
   background-color: #446b5f;
 }
+
+.portrait{
+  max-width: 400px;
+  width: 90%;
+}

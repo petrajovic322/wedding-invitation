@@ -44,6 +44,7 @@ function App() {
       <div className='card'>
         <div className='content'>
           <h1 className='names'>Vid & Petra</h1>
+          <img src='./portrait.jpeg' className='portrait'/>
           <p className='info'>
             {strings.intro1}
             <br/>
